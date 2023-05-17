@@ -10,7 +10,7 @@ Plugin Name
 Plugin Name:        MLAbram - Enhanced Floating Admin Bar
 Plugin URI:         https://mlabram.com
 Description:        Enhance the default WordPress floating admin bar.
-Version:            1.0.0
+Version:            1.0.1
 Requires At Least:  5.0
 Requires PHP:       7.0
 Author:             MLAbram
@@ -38,15 +38,6 @@ You should have received a copy of the GNU General Public License
 along with MLAbram - Enhanced Floating Admin Bar. 
 If not, see https://www.gnu.org/licenses/gpl-3.0.html.
 */
-
-function mlabram_enhanced_floating_admin_bar_show_activated() {
-    ?>
-    <div class="notice notice-success">
-        <p> MLAbram - Enhanced Floating Admin Bar is activated!</p>
-    </div>
-    <?php
-}
-add_action('admin_notices', 'mlabram_enhanced_floating_admin_bar_show_activated');
 
 // create posts link in the floating admin bar
 function mlabram_enhanced_floating_admin_bar_add_posts($admin_bar) {
