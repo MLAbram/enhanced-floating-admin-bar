@@ -5,10 +5,10 @@ Enhancing the WordPress floating admin bar.
 # Validate Your Download
 
 ## Linux:
-> sha256sum mlabram-enhanced-floating-admin-bar.zip
+$> sha256sum mlabram-enhanced-floating-admin-bar.zip
 
 ## Mac:
-> shasum -a 256 mini.iso
+$> shasum -a 256 mini.iso
 
 ## Windows:
 c:\ certutil -hashfile mini.iso sha256
